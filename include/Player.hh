@@ -8,6 +8,6 @@ class Player: public Character
         unsigned int points{};
         std::string status{};
     public:
-        Player(std::string name, unsigned int level, unsigned int points, std::string status);
+        Player(std::string user, unsigned int level, unsigned int points, std::string status);
         void showPlayer();
 };
